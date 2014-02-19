@@ -1,0 +1,332 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		773D65C218B48F960056EF5D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773D65C118B48F960056EF5D /* UIKit.framework */; };
+		773D65C418B48F960056EF5D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773D65C318B48F960056EF5D /* Foundation.framework */; };
+		773D65C618B48F960056EF5D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773D65C518B48F960056EF5D /* CoreGraphics.framework */; };
+		773D65CC18B48F960056EF5D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 773D65CA18B48F960056EF5D /* InfoPlist.strings */; };
+		773D65CE18B48F960056EF5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D65CD18B48F960056EF5D /* main.m */; };
+		773D65D218B48F960056EF5D /* TxAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D65D118B48F960056EF5D /* TxAAppDelegate.m */; };
+		773D65D418B48F960056EF5D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D65D318B48F960056EF5D /* Default.png */; };
+		773D65D618B48F960056EF5D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D65D518B48F960056EF5D /* Default@2x.png */; };
+		773D65D818B48F960056EF5D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 773D65D718B48F960056EF5D /* Default-568h@2x.png */; };
+		773D65DB18B48F960056EF5D /* TxARootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D65DA18B48F960056EF5D /* TxARootViewController.m */; };
+		773D65DE18B48F960056EF5D /* TxADataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D65DD18B48F960056EF5D /* TxADataViewController.m */; };
+		773D65E118B48F960056EF5D /* TxAModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 773D65E018B48F960056EF5D /* TxAModelController.m */; };
+		773D65E418B48F960056EF5D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773D65E218B48F960056EF5D /* MainStoryboard_iPhone.storyboard */; };
+		773D65E718B48F960056EF5D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 773D65E518B48F960056EF5D /* MainStoryboard_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		773D65BE18B48F960056EF5D /* TaxiApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaxiApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		773D65C118B48F960056EF5D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		773D65C318B48F960056EF5D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		773D65C518B48F960056EF5D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		773D65C918B48F960056EF5D /* TaxiApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TaxiApp-Info.plist"; sourceTree = "<group>"; };
+		773D65CB18B48F960056EF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		773D65CD18B48F960056EF5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		773D65CF18B48F960056EF5D /* TaxiApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TaxiApp-Prefix.pch"; sourceTree = "<group>"; };
+		773D65D018B48F960056EF5D /* TxAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TxAAppDelegate.h; sourceTree = "<group>"; };
+		773D65D118B48F960056EF5D /* TxAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxAAppDelegate.m; sourceTree = "<group>"; };
+		773D65D318B48F960056EF5D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		773D65D518B48F960056EF5D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		773D65D718B48F960056EF5D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		773D65D918B48F960056EF5D /* TxARootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TxARootViewController.h; sourceTree = "<group>"; };
+		773D65DA18B48F960056EF5D /* TxARootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxARootViewController.m; sourceTree = "<group>"; };
+		773D65DC18B48F960056EF5D /* TxADataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TxADataViewController.h; sourceTree = "<group>"; };
+		773D65DD18B48F960056EF5D /* TxADataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxADataViewController.m; sourceTree = "<group>"; };
+		773D65DF18B48F960056EF5D /* TxAModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TxAModelController.h; sourceTree = "<group>"; };
+		773D65E018B48F960056EF5D /* TxAModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TxAModelController.m; sourceTree = "<group>"; };
+		773D65E318B48F960056EF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		773D65E618B48F960056EF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		773D65BB18B48F960056EF5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D65C218B48F960056EF5D /* UIKit.framework in Frameworks */,
+				773D65C418B48F960056EF5D /* Foundation.framework in Frameworks */,
+				773D65C618B48F960056EF5D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		773D65B518B48F960056EF5D = {
+			isa = PBXGroup;
+			children = (
+				773D65C718B48F960056EF5D /* TaxiApp */,
+				773D65C018B48F960056EF5D /* Frameworks */,
+				773D65BF18B48F960056EF5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		773D65BF18B48F960056EF5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				773D65BE18B48F960056EF5D /* TaxiApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		773D65C018B48F960056EF5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				773D65C118B48F960056EF5D /* UIKit.framework */,
+				773D65C318B48F960056EF5D /* Foundation.framework */,
+				773D65C518B48F960056EF5D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		773D65C718B48F960056EF5D /* TaxiApp */ = {
+			isa = PBXGroup;
+			children = (
+				773D65D018B48F960056EF5D /* TxAAppDelegate.h */,
+				773D65D118B48F960056EF5D /* TxAAppDelegate.m */,
+				773D65D918B48F960056EF5D /* TxARootViewController.h */,
+				773D65DA18B48F960056EF5D /* TxARootViewController.m */,
+				773D65DC18B48F960056EF5D /* TxADataViewController.h */,
+				773D65DD18B48F960056EF5D /* TxADataViewController.m */,
+				773D65DF18B48F960056EF5D /* TxAModelController.h */,
+				773D65E018B48F960056EF5D /* TxAModelController.m */,
+				773D65E218B48F960056EF5D /* MainStoryboard_iPhone.storyboard */,
+				773D65E518B48F960056EF5D /* MainStoryboard_iPad.storyboard */,
+				773D65C818B48F960056EF5D /* Supporting Files */,
+			);
+			path = TaxiApp;
+			sourceTree = "<group>";
+		};
+		773D65C818B48F960056EF5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				773D65C918B48F960056EF5D /* TaxiApp-Info.plist */,
+				773D65CA18B48F960056EF5D /* InfoPlist.strings */,
+				773D65CD18B48F960056EF5D /* main.m */,
+				773D65CF18B48F960056EF5D /* TaxiApp-Prefix.pch */,
+				773D65D318B48F960056EF5D /* Default.png */,
+				773D65D518B48F960056EF5D /* Default@2x.png */,
+				773D65D718B48F960056EF5D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		773D65BD18B48F960056EF5D /* TaxiApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 773D65EA18B48F960056EF5D /* Build configuration list for PBXNativeTarget "TaxiApp" */;
+			buildPhases = (
+				773D65BA18B48F960056EF5D /* Sources */,
+				773D65BB18B48F960056EF5D /* Frameworks */,
+				773D65BC18B48F960056EF5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaxiApp;
+			productName = TaxiApp;
+			productReference = 773D65BE18B48F960056EF5D /* TaxiApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		773D65B618B48F960056EF5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TxA;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mantas Antropikas";
+			};
+			buildConfigurationList = 773D65B918B48F960056EF5D /* Build configuration list for PBXProject "TaxiApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 773D65B518B48F960056EF5D;
+			productRefGroup = 773D65BF18B48F960056EF5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				773D65BD18B48F960056EF5D /* TaxiApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		773D65BC18B48F960056EF5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D65CC18B48F960056EF5D /* InfoPlist.strings in Resources */,
+				773D65D418B48F960056EF5D /* Default.png in Resources */,
+				773D65D618B48F960056EF5D /* Default@2x.png in Resources */,
+				773D65D818B48F960056EF5D /* Default-568h@2x.png in Resources */,
+				773D65E418B48F960056EF5D /* MainStoryboard_iPhone.storyboard in Resources */,
+				773D65E718B48F960056EF5D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		773D65BA18B48F960056EF5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				773D65CE18B48F960056EF5D /* main.m in Sources */,
+				773D65D218B48F960056EF5D /* TxAAppDelegate.m in Sources */,
+				773D65DB18B48F960056EF5D /* TxARootViewController.m in Sources */,
+				773D65DE18B48F960056EF5D /* TxADataViewController.m in Sources */,
+				773D65E118B48F960056EF5D /* TxAModelController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		773D65CA18B48F960056EF5D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773D65CB18B48F960056EF5D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		773D65E218B48F960056EF5D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773D65E318B48F960056EF5D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		773D65E518B48F960056EF5D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				773D65E618B48F960056EF5D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		773D65E818B48F960056EF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		773D65E918B48F960056EF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		773D65EB18B48F960056EF5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaxiApp/TaxiApp-Prefix.pch";
+				INFOPLIST_FILE = "TaxiApp/TaxiApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		773D65EC18B48F960056EF5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TaxiApp/TaxiApp-Prefix.pch";
+				INFOPLIST_FILE = "TaxiApp/TaxiApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		773D65B918B48F960056EF5D /* Build configuration list for PBXProject "TaxiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D65E818B48F960056EF5D /* Debug */,
+				773D65E918B48F960056EF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		773D65EA18B48F960056EF5D /* Build configuration list for PBXNativeTarget "TaxiApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				773D65EB18B48F960056EF5D /* Debug */,
+				773D65EC18B48F960056EF5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 773D65B618B48F960056EF5D /* Project object */;
+}
